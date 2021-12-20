@@ -1,0 +1,66 @@
+body {
+    background-color: #0C2A43;
+    font-family: 'Montserrat', sans-serif, Verdana;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.tl {
+    text-align: left;
+    top: 50%;
+    bottom: 50%;
+    margin: 40px;
+}
+
+.tr {
+    text-align: right;
+    top: 50%;
+    bottom: 50%;
+    margin: 40px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+li {
+    color: white;
+    text-align: left;
+    font-size: 22px;
+}
+
+.bottom {
+    position: static;
+    bottom: 0;
+    right: 5%;
+    left: 5%;
+}
+
+.header {
+    margin: 0px 0px 45px 0px;
+}
