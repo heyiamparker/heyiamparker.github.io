@@ -3,44 +3,43 @@
     <head>
         <title>who i am | parker jackson</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="https://i.ibb.co/dB2GY8t/PJ.png" type="image/x-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://media.discordapp.net/attachments/803411868760801321/933865046004625428/Add_a_heading.png" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <header id="header" class="header">
-            <a href="https://heyiamparker.xyz"><img src="https://i.ibb.co/XZTPGNw/logo-4.png" alt="Parker Jackson" width="45%" height="45%"></a>
-            <h1>who i am</h1>
-        </header>
-        <br>
-        <br>
-    <div id="p1">
-        <p>Hey! I'm Parker. I'm learning HTML & CSS, which I am using to build this website. I make tech YouTube videos which you can check out <a href="https://www.youtube.com/c/ParkerJacksonTech">here</a>. And I'm fully vaccinated (Pfizer).</p>
-    </div>
-    <br>
-    <div id="insul">
-        <h1>my interests include</h1>
-        <ul>
-            <li>technology</li>
-            <li>making useless websites</li>
-            <li>and annoying my friend <a href="https://avplu.github.io">Alex</a> (i don't like him).</li>
-        </ul>
-    </div>
-    <br>
-    <div id="ea">
-        <h1>extra</h1>
-        <ul>
-            <li>i use <strong>he/they</strong> pronouns.</li>
-            <li>extra gum is the best gum and you can't prove me wrong.</li>
-            <li>coca-cola (regular) is the best soda.</li>
-            <li>i collect Apple Pay and Google Pay stickers for fun.</li>
-        </ul>
-    </div>
-    <footer id="bottom" class="bottom">
-        <h3>a website by <a href="https://heyiamparker.xyz">me</a></h3>
-        <h3 style="opacity: 0.7;">alex you better like this website</h3>
-    </footer>
+        <a href="https://heyiamparker.xyz">
+            <header>
+                <h1>about me</h1>
+            </header>
+            </a>
+            <br>
+            <br>
+            <br>
+            <br>
+                <button type="button" class="collapsible"><h2>main</h2></button>
+                <div class="content">
+                    <p>my name is Parker, i use he/they pronouns, i'm fully vaccinated (pfizer), i love tech, my favorite artists are Flume and Lil Nas X</p>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="collapsible"><h2>extra</h2></button>
+                    <div class="content">
+                        <p>extra gum (the brand) is the best kind of gum, coke is the best soda (who even likes pepsi), windows 11 is incredible (coming from a mac user)</p>
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+            </script>
     </body>
 </html>
