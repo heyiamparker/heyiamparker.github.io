@@ -30,7 +30,11 @@ a {
     border-radius: 30px;
     text-decoration: none;
     color: white;
-    width: 100px;
+    width: 100%;
+}
+
+a:hover {
+    background-color: #1c1c1c;
 }
 
 .tl {
@@ -86,15 +90,11 @@ header {
     text-align: center;
     min-height: 30vh;
     background-color: #1c1c1c;
-    border-radius: 60px;
+    border-radius: 70px;
 }
 
-#centered-other {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 45vh;
+header:hover {
+    background-color: #101010;
 }
 
 .collapsible {
@@ -117,4 +117,8 @@ header {
     background-color: #1c1c1c;
     border-radius: 30px;
     padding: 10px
+}
+
+.smlink {
+    padding: 20px
 }
