@@ -90,7 +90,7 @@ header {
     text-align: center;
     min-height: 30vh;
     background-color: #1c1c1c;
-    border-radius: 70px;
+    border-radius: 100px;
 }
 
 header:hover {
@@ -104,7 +104,7 @@ header:hover {
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
 .active, .collapsible:hover {
@@ -115,7 +115,7 @@ header:hover {
     display: none;
     overflow: hidden;
     background-color: #1c1c1c;
-    border-radius: 30px;
+    border-radius: 60px;
     padding: 10px
 }
 
