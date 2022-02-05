@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+/* whole document */
+
 body {
     background-color: #121212;
     font-family: 'Varela Round', sans-serif;
@@ -37,19 +39,6 @@ a:hover {
     background-color: #1c1c1c;
 }
 
-.tl {
-    text-align: left;
-    top: 50%;
-    bottom: 50%;
-    margin: 40px;
-}
-
-.tr {
-    text-align: right;
-    top: 50%;
-    bottom: 50%;
-    margin: 40px;
-}
 
 p {
     color: white;
@@ -70,18 +59,7 @@ li {
     left: 5%;
 }
 
-.header a {
-    margin: 0px 0px 45px 0px;
-}
-
-#centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 85vh;
-}
-
+/* header */
 
 header {
     display: flex;
@@ -93,9 +71,30 @@ header {
     border-radius: 100px;
 }
 
+.header a {
+    margin: 0px 0px 45px 0px;
+}
+
 header:hover {
     background-color: #101010;
 }
+
+/* sm.html CSS */
+
+.smlink {
+    padding: 20px
+}
+
+/* wia.html CSS */
+
+#centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+}
+
 
 .collapsible {
     background-color: #1c1c1c;
@@ -117,8 +116,4 @@ header:hover {
     background-color: #1c1c1c;
     border-radius: 60px;
     padding: 10px
-}
-
-.smlink {
-    padding: 20px
 }
