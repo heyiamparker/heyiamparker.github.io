@@ -47,7 +47,7 @@ a {
     background-color: #1DA1F2;
     text-decoration: none;
     border-radius: 50px;
-    padding: 0.8em 4.41em;
+    padding: 0.64em 3.528em;
     font-size: 30px;
 }
 
@@ -55,7 +55,7 @@ a {
     background-color: #FF0000;
     text-decoration: none;
     border-radius: 50px;
-    padding: 0.8em 4.06em;
+    padding: 0.64em 3.248em;
     font-size: 30px;  
 }
 
@@ -63,6 +63,10 @@ a {
     background-color: rgb(116, 116, 116);
     text-decoration: none;
     border-radius: 50px;
-    padding: 0.8em 4.4em;
+    padding: 0.64em 3.52em;
     font-size: 30px;
+}
+
+a:hover {
+    background-color: darkslategrey;
 }
