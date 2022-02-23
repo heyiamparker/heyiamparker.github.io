@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap%27%27');
 
 /* whole document */
 
 body {
-    background-color: #121212;
+    background-image: radial-gradient(circle, #75d0e2, #ffffff);
     font-family: 'Nunito', sans-serif;
     text-align: center;
     padding-left: 25px;
@@ -12,12 +12,13 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 35px;
 }
 
+
 h3 {
-    color: white;
+    color: black;
     font-size: 22px;
 }
 
@@ -25,7 +26,7 @@ a {
     color: white;
 }
 
-/* face-area CSS */
+/* index.html CSS */
 
 .sexy-face img {
     border-radius: 100%;
@@ -56,11 +57,11 @@ a {
     text-decoration: none;
     border-radius: 50px;
     padding: 0.64em 3.248em;
-    font-size: 30px;  
+    font-size: 30px;
 }
 
 .the-hub a {
-    background-color: rgb(116, 116, 116);
+    background-color: #171515;
     text-decoration: none;
     border-radius: 50px;
     padding: 0.64em 3.52em;
