@@ -3,7 +3,7 @@
 /* whole document */
 
 body {
-    background-image: radial-gradient(circle, #75d0e2, #ffffff);
+    background-color: #121212;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     padding-left: 25px;
@@ -12,13 +12,13 @@ body {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 35px;
 }
 
 
 h3 {
-    color: black;
+    color: white;
     font-size: 22px;
 }
 
@@ -61,7 +61,7 @@ a {
 }
 
 .the-hub a {
-    background-color: #171515;
+    background-color: #332f2f;
     text-decoration: none;
     border-radius: 50px;
     padding: 0.64em 3.52em;
