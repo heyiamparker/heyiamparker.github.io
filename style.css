@@ -1,73 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap%27%27');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* whole document */
-
-body {
-    background-color: #121212;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #141414;
+    box-sizing:border-box;
 }
 
 h1 {
-    color: white;
-    font-size: 35px;
+    color: white
 }
 
-
-h3 {
+h2{ 
     color: white;
-    font-size: 22px;
 }
 
 a {
-    color: white;
+    text-decoration-color: grey;
 }
 
-/* index.html CSS */
-
-.sexy-face img {
-    border-radius: 100%;
-    width: 7em;
-    height: 7em;
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
 
-.sexy-face h2 {
+p {
     color: grey;
 }
 
-.sexy-face {
-    line-height: 0.6;
-}
-
-/* links CSS */
-
-.twitter a {
-    background-color: #1DA1F2;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 0.64em 3.528em;
-    font-size: 30px;
-}
-
-.youtube a {
-    background-color: #FF0000;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 0.64em 3.248em;
-    font-size: 30px;
-}
-
-.the-hub a {
-    background-color: #332f2f;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 0.64em 3.52em;
-    font-size: 30px;
-}
-
-a:hover {
-    background-color: darkslategrey;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
 }
