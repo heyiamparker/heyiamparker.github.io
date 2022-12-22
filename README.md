@@ -2,6 +2,3 @@
 
 
 ###### feel free to use the code for anything you want, idc.
-
-### • Parker Jackson
-### • [heyiamparker.xyz](https://heyiamparker.xyz/)
