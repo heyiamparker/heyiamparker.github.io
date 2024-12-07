@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("GeorgiaPro-Light.ttf"); 
+}
+
 html {
-    font-family: 'Georgia Pro', 'Times New Roman', Times, serif;
+    font-family: 'Georgia Pro', Georgia, 'Times New Roman', serif;
     padding: 1rem;
     background-color: var(--bg);
     color: var(--text);
@@ -98,6 +104,7 @@ a {
   }
   
   .content {
+    font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     padding: 10px;
     background-color: var(--windowBackgroundColor);
     border-bottom-left-radius: 7px;
@@ -142,7 +149,7 @@ a {
   }
   
   .notification {
-    font-family: "San Francisco";
+    font-family: "San Francisco", 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 12px;
     cursor: default;
     pointer-events: none;
@@ -156,7 +163,7 @@ a {
   }
   
   .notification-inner {
-    font: 1.54rem "San Francisco";
+    font: 1.54rem "San Francisco", 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #000;
     background-color: var(--notificationBackgroundColor);
     -webkit-font-smoothing: antialiased;
@@ -202,7 +209,7 @@ a {
   }
   
   .notification-body-header {
-      font: 600 1.2em "San Francisco";
+      font: 600 1.2em "San Francisco", 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       padding-top: 16px;
       padding-left: 10px;
       white-space: nowrap;
@@ -211,7 +218,7 @@ a {
   }
   
   .notification-body-content {
-      font: 400 1.1em "San Francisco";
+      font: 400 1.1em "San Francisco", 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
