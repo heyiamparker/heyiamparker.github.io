@@ -1,0 +1,233 @@
+html {
+    font-family: 'Georgia Pro', 'Times New Roman', Times, serif;
+    padding: 1rem;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding: 1rem;
+}
+
+.git {
+    float: right;
+    margin-right: 2rem;
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* auto light/dark */
+:root {
+    --text: #1D1916;
+    --bg: #FFF3E9;
+    --notificationTextColor: #000;
+    --notificationBackgroundColor: #EDE8E1;
+    --windowBackgroundColor: #FFFFFF;
+  }
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --text: #FFF3E9;
+      --bg: #1D1916;
+      --notificationTextColor: #FFF;
+      --notificationBackgroundColor: #69645d;
+      --windowBackgroundColor: #332D27;
+    }
+  }
+
+/* all home/index.html */
+
+.homeName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 75vh;
+}
+
+/* all aboutme.html */
+.dot1 {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #ED6A5E;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2 {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #F5BD4F;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot3 {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #62C354;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .container {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .top {
+    padding: 0.2rem;
+    padding-left: 0.4rem;
+    background: #D9D9D9;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .content {
+    padding: 10px;
+    background-color: var(--windowBackgroundColor);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
+  
+  /** Thin */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff"); }
+  
+  /** Regular */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); }
+  
+  /** Medium */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff"); }
+  
+  /** Semi Bold */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff"); }
+  
+  /** Bold */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  }
+  
+  .notification {
+    font-family: "San Francisco";
+    font-size: 12px;
+    cursor: default;
+    pointer-events: none;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    height: 80px;
+    transform: translateX(0)!important;
+    opacity: 1!important;
+    transition: transform 550ms cubic-bezier(0.23, 1, 0.32, 1), opacity 750ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .notification-inner {
+    font: 1.54rem "San Francisco";
+    color: #000;
+    background-color: var(--notificationBackgroundColor);
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    cursor: default;
+    box-sizing: border-box;
+    height: 70px;
+    width: 300px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .notifications .notification-inner:before, .notifications .notification-inner:after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+  
+  .notification-icon {
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 50%;
+      left: 12px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transform: translate(0, -50%);
+  }
+  
+  .notification-body {
+      height: 100%;
+      color: var(--notificationTextColor);
+      padding-right: 25px;
+      padding-left: 60px;
+  }
+  
+  .notification-body-header {
+      font: 600 1.2em "San Francisco";
+      padding-top: 16px;
+      padding-left: 10px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+  
+  .notification-body-content {
+      font: 400 1.1em "San Francisco";
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding-top: 1px;
+      padding-left: 10px;
+      padding-bottom: 5px;
+  }
+  
+  .notifications {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 30px;
+  }
+
+.notifications:target {
+    display: none;
+}
